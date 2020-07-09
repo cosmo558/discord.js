@@ -4,8 +4,6 @@ In here, you'll see some basic examples for kicking and banning a member.
 
 ## Kicking a member
 
-Let's say you have a member that you'd like to kick. Here is an example of how you _can_ do it.
-
 ```js
 // Import the discord.js module
 const Discord = require('discord.js');
@@ -66,8 +64,6 @@ client.on('message', message => {
   }
 });
 
-// Log our bot in using the token from https://discord.com/developers/applications/me
-client.login('your token here');
 ```
 
 And the result is:
